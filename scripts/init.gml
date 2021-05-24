@@ -9,7 +9,7 @@ hitstun_hurtbox_spr = -1;
 
 char_height = 48;
 idle_anim_speed = .18;
-crouch_anim_speed = .1;
+crouch_anim_speed = .13;
 walk_anim_speed = .18;
 dash_anim_speed = .2;
 pratfall_anim_speed = .25;
