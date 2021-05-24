@@ -10,13 +10,13 @@ hitstun_hurtbox_spr = -1;
 char_height = 48;
 idle_anim_speed = .18;
 crouch_anim_speed = .1;
-walk_anim_speed = .125;
+walk_anim_speed = .18;
 dash_anim_speed = .2;
 pratfall_anim_speed = .25;
 
-walk_speed = 3.25;
+walk_speed = 3.20;
 walk_accel = 0.2;
-walk_turn_time = 6;
+walk_turn_time = 8;
 initial_dash_time = 14;
 initial_dash_speed = 8;
 dash_speed = 7.5;
