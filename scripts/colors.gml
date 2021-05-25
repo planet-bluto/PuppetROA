@@ -81,8 +81,8 @@ set_color_profile_slot( 5, 6, 169, 0, 0 ); //Right Eye
 set_color_profile_slot( 6, 0, 255, 255, 255 ); //Body
 set_color_profile_slot( 6, 1, 218, 218, 218 ); //Body Shading
 set_color_profile_slot( 6, 2, 10, 137, 255 ); //Brush
-set_color_profile_slot( 6, 3, 2, 74, 202 ); //Ink
-set_color_profile_slot( 6, 4, 114, 225, 255 ); //Ink Glow
+set_color_profile_slot( 6, 3, 24, 26, 26 ); //Ink
+set_color_profile_slot( 6, 4, 0, 161, 230 ); //Ink Glow
 set_color_profile_slot( 6, 5, 234, 29, 35 ); //Left Eye
 set_color_profile_slot( 6, 6, 0, 161, 230 ); //Right Eye
 
