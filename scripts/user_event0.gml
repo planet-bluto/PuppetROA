@@ -7,8 +7,8 @@ switch (get_player_color(player)) {
 			rb_up = true
 		}
 
-		red = make_colour_rgb(224,60,40)
-		blue = make_colour_rgb(2,74,202)
+		red = make_colour_rgb(234,29,35)
+		blue = make_colour_rgb(0,161,230)
 		color = merge_colour(red,blue,rb_merge)
 
 		if (rb_up and rb_merge == 1) {
