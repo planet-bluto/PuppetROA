@@ -6,7 +6,7 @@ sprite_change_offset("walkturn", 27, 43);
 sprite_change_offset("dash", 22, 34);
 sprite_change_offset("dashstart", 27, 43);
 sprite_change_offset("dashstop", 22, 34);
-sprite_change_offset("dashturn", 59, 37);
+sprite_change_offset("dashturn", 63, 43);
 
 sprite_change_offset("jumpstart", 29, 43);
 sprite_change_offset("jump", 34, 36);
