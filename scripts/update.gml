@@ -1,1 +1,2 @@
 // update
+init_shader();
