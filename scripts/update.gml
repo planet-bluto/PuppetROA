@@ -1,2 +1,1 @@
-// update
-init_shader();
+// update is useless, wtf

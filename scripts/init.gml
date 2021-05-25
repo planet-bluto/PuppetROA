@@ -1,5 +1,6 @@
 puppet = instance_create(x,y,"obj_article1")
 practice_plus_plus_color = c_white
+practice_plus_plus_current_color = c_white
 active_dashfx = ds_list_create()
 attack_hit = array_create(49, [0,0])
 

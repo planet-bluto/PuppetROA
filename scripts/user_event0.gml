@@ -1,6 +1,6 @@
 // Custom Skin
 
-switch (get_player_color(player)) {
+switch (color_slot) {
 	case 6:
 		if ("rb_merge" not in self) {
 			int_rb_merge = 1
@@ -44,4 +44,15 @@ switch (get_player_color(player)) {
 		set_color_profile_slot( 6, 4, color1[0], color1[1], color1[2] );
 		init_shader()
 	break;
+}
+if ("practice_plus_plus_color" in self) {
+	if (practice_plus_plus_color != practice_plus_plus_current_color) {
+		practice_plus_plus_current_color = practice_plus_plus_color
+		p_r = colour_get_red(practice_plus_plus_color)
+		p_g = colour_get_green(practice_plus_plus_color)
+		p_b = colour_get_blue(practice_plus_plus_color)
+
+		set_color_profile_slot( color_slot, 0, p_r, p_g, p_b)
+		set_color_profile_slot( color_slot, 1, p_r-50, p_g-50, p_b-50)
+	}	
 }
