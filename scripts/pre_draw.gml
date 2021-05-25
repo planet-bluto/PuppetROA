@@ -5,7 +5,6 @@ if ("dash_fx_frames" not in self) {
 }
 
 if (attack == AT_DATTACK and (window == 1 && window_timer == 13)) {
-	print("FUCK")
 	dash_fx_frames = 0
 	dash_fx_x = x-54*spr_dir
 	dash_fx_y = y-54
