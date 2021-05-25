@@ -1,1 +1,1 @@
-attack_hit[attack,hbox_num] = true
+attack_hit[attack,my_hitboxID.hbox_num] = true
