@@ -43,3 +43,6 @@ sprite_change_offset("dspecial", 0, 0);
 sprite_change_offset("taunt", 0, 0);
 
 sprite_change_offset("plat", 0, 0);
+
+//Effects
+sprite_change_offset("fx_hit1", 78, 102);

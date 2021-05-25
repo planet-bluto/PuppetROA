@@ -3,6 +3,7 @@ practice_plus_plus_color = c_white
 
 //Effects
 fx_dattack = hit_fx_create( sprite_get( "fx_dattack" ), 12 );
+fx_hit1 = hit_fx_create( sprite_get( "fx_hit1" ), 18 )
 
 //Base Variables
 hurtbox_spr = asset_get("ex_guy_hurt_box");
