@@ -13,7 +13,7 @@ sprite_change_offset("jump", 0, 0);
 sprite_change_offset("doublejump", 0, 0);
 sprite_change_offset("walljump", 0, 0);
 sprite_change_offset("pratfall", 0, 0);
-sprite_change_offset("land", 0, 0);
+sprite_change_offset("land", 29, 43);
 sprite_change_offset("landinglag", 0, 0);
 
 sprite_change_offset("parry", 0, 0);
@@ -24,7 +24,7 @@ sprite_change_offset("waveland", 0, 0);
 sprite_change_offset("tech", 0, 0);
 
 sprite_change_offset("jab", 0, 0);
-sprite_change_offset("dattack", 0, 0);
+sprite_change_offset("dattack", 27, 43);
 sprite_change_offset("ftilt", 0, 0);
 sprite_change_offset("dtilt", 0, 0);
 sprite_change_offset("utilt", 0, 0);
