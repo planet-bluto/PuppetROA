@@ -3,7 +3,9 @@
 switch (get_player_color(player)) {
 	case 6:
 		if ("rb_merge" not in self) {
+			int_rb_merge = 1
 			rb_merge = 1
+			const_merge_speed = 150
 			rb_up = true
 		}
 
@@ -11,16 +13,18 @@ switch (get_player_color(player)) {
 		blue = make_colour_rgb(0,161,230)
 		color = merge_colour(red,blue,rb_merge)
 
-		if (rb_up and rb_merge == 1) {
+		if (rb_up and int_rb_merge == const_merge_speed) {
 			rb_up = false
-		} else if (not rb_up and rb_merge == 0) {
+		} else if (not rb_up and int_rb_merge == 0) {
 			rb_up = true
 		}
 
 		if (rb_up) {
-			rb_merge += 0.01
+			int_rb_merge += 1
+			rb_merge = (ease_backInOut(0, const_merge_speed, int_rb_merge, const_merge_speed, 0))/const_merge_speed
 		} else {
-			rb_merge -= 0.01
+			int_rb_merge -= 1
+			rb_merge = (ease_backInOut(0, const_merge_speed, int_rb_merge, const_merge_speed, 0))/const_merge_speed
 		}
 
 		color1[0] = colour_get_red(color)
