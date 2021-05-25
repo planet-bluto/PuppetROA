@@ -8,6 +8,9 @@ attack_hit = array_create(49, [0,0])
 fx_dattack = hit_fx_create( sprite_get( "fx_dattack" ), 12 );
 fx_hit1 = hit_fx_create( sprite_get( "fx_hit1" ), 18 )
 fx_hit2 = hit_fx_create( sprite_get( "fx_hit2" ), 25 )
+fx_caligraphy1 = hit_fx_create( sprite_get( "fx_caligraphy1" ), 25 )
+fx_caligraphy2 = hit_fx_create( sprite_get( "fx_caligraphy2" ), 25 )
+caligraphy_number = 0
 
 // Alt shit
 switch (get_player_color(player)) {
@@ -94,7 +97,7 @@ techroll_speed = 10;
 
 //airdodge animation frames
 air_dodge_startup_frames = 1;
-air_dodge_active_frames = 2;
+air_dodge_active_frames = 6;
 air_dodge_recovery_frames = 3;
 air_dodge_speed = 7.5;
 
@@ -110,7 +113,7 @@ roll_backward_max = 9;
 
 land_sound = asset_get("sfx_land_med");
 landing_lag_sound = asset_get("sfx_land");
-waveland_sound = asset_get("sfx_waveland_zet");
+waveland_sound = asset_get("sfx_waveland_orc");
 jump_sound = asset_get("sfx_jumpground");
 djump_sound = asset_get("sfx_jumpair");
 air_dodge_sound = asset_get("sfx_quick_dodge");
