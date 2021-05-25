@@ -1,6 +1,5 @@
 puppet = instance_create(x,y,"obj_article1")
-
-//
+practice_plus_plus_color = c_white
 
 //Effects
 fx_dattack = hit_fx_create( sprite_get( "fx_dattack" ), 12 );
