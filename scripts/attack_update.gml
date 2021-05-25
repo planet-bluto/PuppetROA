@@ -8,7 +8,8 @@ if (attack == AT_NSPECIAL || attack == AT_FSPECIAL || attack == AT_DSPECIAL || a
 //Dattack
 if (attack == AT_DATTACK){
     if (window == 1 && window_timer == 14){
-        spawn_hit_fx(x-54*spr_dir,y-54, fx_dattack);
+        // spawn_hit_fx(x-54*spr_dir,y-54, fx_dattack);
+
     }
     if (window >= 2){
         set_attack_value(AT_DATTACK, AG_CATEGORY, 1);
