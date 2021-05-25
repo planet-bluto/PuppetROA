@@ -6,7 +6,7 @@ if (attack == AT_DATTACK and (window == 1 && window_timer == 13)) {
 
 if ( attack_hit[AT_DATTACK,1] ) {
 	attack_hit[AT_DATTACK,1] = false
-	draw_hit_fx("fx_hit2", 19, -43, 18, 0.5)
+	draw_hit_fx("fx_hit2", 19, -43, 25, 1.2)
 }
 
 for (var i = 0; i < ds_list_size(active_dashfx); i += 1) {
