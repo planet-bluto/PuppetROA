@@ -2,6 +2,10 @@ puppet = instance_create(x,y,"obj_article1")
 
 //
 
+//Effects
+fx_dattack = hit_fx_create( sprite_get( "fx_dattack" ), 12 );
+
+//Base Variables
 hurtbox_spr = asset_get("ex_guy_hurt_box");
 crouchbox_spr = asset_get("ex_guy_crouch_box");
 air_hurtbox_spr = -1;
