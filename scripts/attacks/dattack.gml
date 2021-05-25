@@ -50,8 +50,8 @@ set_hitbox_value(AT_DATTACK, 1, HG_BASE_KNOCKBACK, 7);
 set_hitbox_value(AT_DATTACK, 1, HG_KNOCKBACK_SCALING, .75);
 set_hitbox_value(AT_DATTACK, 1, HG_BASE_HITPAUSE, 8);
 set_hitbox_value(AT_DATTACK, 1, HG_HITPAUSE_SCALING, .7);
-// set_hitbox_value(AT_DATTACK, 1, HG_VISUAL_EFFECT, fx_hit1);
-set_hitbox_value(AT_DATTACK, 1, HG_HIT_PARTICLE_NUM, 1);
+set_hitbox_value(AT_DATTACK, 1, HG_VISUAL_EFFECT, fx_hit2);
+//set_hitbox_value(AT_DATTACK, 1, HG_HIT_PARTICLE_NUM, 1);
 set_hitbox_value(AT_DATTACK, 1, HG_HIT_SFX, asset_get("sfx_blow_medium3"));
 
 //Sourspot
@@ -69,5 +69,5 @@ set_hitbox_value(AT_DATTACK, 2, HG_BASE_KNOCKBACK, 6);
 set_hitbox_value(AT_DATTACK, 2, HG_KNOCKBACK_SCALING, .5);
 set_hitbox_value(AT_DATTACK, 2, HG_BASE_HITPAUSE, 7);
 set_hitbox_value(AT_DATTACK, 2, HG_HITPAUSE_SCALING, .5);
-set_hitbox_value(AT_DATTACK, 2, HG_HIT_PARTICLE_NUM, 1);
+//set_hitbox_value(AT_DATTACK, 2, HG_HIT_PARTICLE_NUM, 1);
 set_hitbox_value(AT_DATTACK, 2, HG_HIT_SFX, asset_get("sfx_blow_medium1"));
