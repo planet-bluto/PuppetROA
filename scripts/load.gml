@@ -46,4 +46,4 @@ sprite_change_offset("plat", 0, 0);
 
 //Effects
 sprite_change_offset("fx_hit1", 78, 102);
-sprite_change_offset("fx_hit2", 85, 114);
+sprite_change_offset("fx_hit2", 60, 117);
