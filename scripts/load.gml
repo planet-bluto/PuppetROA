@@ -1,15 +1,15 @@
-sprite_change_offset("idle", 20, 34);
+sprite_change_offset("idle", 26, 43);
 sprite_change_offset("hurt", 0, 0);
 sprite_change_offset("crouch", 24, 43);
-sprite_change_offset("walk", 20, 34);
+sprite_change_offset("walk", 26, 43);
 sprite_change_offset("walkturn", 27, 43);
 sprite_change_offset("dash", 22, 34);
 sprite_change_offset("dashstart", 27, 43);
 sprite_change_offset("dashstop", 22, 34);
-sprite_change_offset("dashturn", 59, 37);
+sprite_change_offset("dashturn", 63, 43);
 
-sprite_change_offset("jumpstart", 0, 0);
-sprite_change_offset("jump", 0, 0);
+sprite_change_offset("jumpstart", 29, 43);
+sprite_change_offset("jump", 34, 36);
 sprite_change_offset("doublejump", 0, 0);
 sprite_change_offset("walljump", 0, 0);
 sprite_change_offset("pratfall", 0, 0);
@@ -20,7 +20,7 @@ sprite_change_offset("parry", 0, 0);
 sprite_change_offset("roll_forward", 0, 0);
 sprite_change_offset("roll_backward", 0, 0);
 sprite_change_offset("airdodge", 0, 0);
-sprite_change_offset("waveland", 0, 0);
+sprite_change_offset("waveland", 29, 43);
 sprite_change_offset("tech", 0, 0);
 
 sprite_change_offset("jab", 0, 0);
@@ -47,3 +47,4 @@ sprite_change_offset("plat", 0, 0);
 //Effects
 sprite_change_offset("fx_hit1", 78, 102);
 sprite_change_offset("fx_hit1_log", 78, 102);
+sprite_change_offset("fx_hit2", 60, 117);
