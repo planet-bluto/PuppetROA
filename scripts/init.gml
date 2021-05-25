@@ -1,9 +1,20 @@
 puppet = instance_create(x,y,"obj_article1")
 practice_plus_plus_color = c_white
+active_dashfx = ds_list_create()
+attack_hit = array_create(49, [0,0])
 
 //Effects
 fx_dattack = hit_fx_create( sprite_get( "fx_dattack" ), 12 );
 fx_hit1 = hit_fx_create( sprite_get( "fx_hit1" ), 18 )
+
+// Alt shit
+switch (get_player_color(player)) {
+	case 6:
+		alt_suffix = "_log"
+	break;
+	default:
+		alt_suffix = ""
+}
 
 //Base Variables
 hurtbox_spr = asset_get("ex_guy_hurt_box");

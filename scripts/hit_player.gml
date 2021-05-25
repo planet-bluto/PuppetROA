@@ -1,0 +1,1 @@
+attack_hit[attack,hbox_num] = true
