@@ -3,7 +3,7 @@
 switch (get_player_color(player)) {
 	case 6:
 		if ("rb_merge" not in self) {
-			rb_merge = 0
+			rb_merge = 1
 			rb_up = true
 		}
 
@@ -18,9 +18,9 @@ switch (get_player_color(player)) {
 		}
 
 		if (rb_up) {
-			rb_merge += 0.025
+			rb_merge += 0.01
 		} else {
-			rb_merge -= 0.025
+			rb_merge -= 0.01
 		}
 
 		color1[0] = colour_get_red(color)
