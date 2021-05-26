@@ -10,7 +10,7 @@ if (get_player_color(player) == 0){
 
 }
 
-if ("spr_dir" in self) {
+else if ("spr_dir" in self) {
 
     if (spr_dir == 1){
         //Left Eye

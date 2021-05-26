@@ -21,6 +21,12 @@ switch (get_player_color(player)) {
 		alt_suffix = ""
 }
 
+//Grab stuff
+grabbed_player_obj = noone;    //the player object currently being grabbed.
+grabbed_player_relative_x = 0; //the relative x and y position of the grabbed player, at the point they were grabbed.
+grabbed_player_relative_y = 0;   //we store this coordinate to smoothly reposition the grabbed player later.
+make_visible = false;
+
 //Base Variables
 hurtbox_spr = asset_get("ex_guy_hurt_box");
 crouchbox_spr = asset_get("ex_guy_crouch_box");
