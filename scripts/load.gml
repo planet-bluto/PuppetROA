@@ -28,13 +28,13 @@ sprite_change_offset("waveland", 29, 43);
 sprite_change_offset("tech", 0, 0);
 
 sprite_change_offset("jab", 0, 0);
-sprite_change_offset("dattack", 36, 49);
+sprite_change_offset("dattack", 79, 49);
 sprite_change_offset("dattack_hurt", 72, 98);
 sprite_change_offset("ftilt", 0, 0);
 sprite_change_offset("dtilt", 0, 0);
 sprite_change_offset("utilt", 0, 0);
 sprite_change_offset("nair", 0, 0);
-sprite_change_offset("fair", 0, 0);
+sprite_change_offset("fair", 71, 46);
 sprite_change_offset("bair", 0, 0);
 sprite_change_offset("uair", 0, 0);
 sprite_change_offset("dair", 0, 0);

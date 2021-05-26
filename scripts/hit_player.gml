@@ -48,3 +48,7 @@ if (my_hitboxID.attack == AT_FSPECIAL_2){
 		    }
 		}
 }
+
+if (my_hitboxID.attack == AT_FAIR){
+    old_vsp = -4
+}

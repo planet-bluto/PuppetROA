@@ -30,7 +30,7 @@ for (var i = 0; i < ds_list_size(active_dashfx); i += 1) {
 		curr_dashfx.frames += 1
 		if (curr_dashfx.frames != curr_dashfx.anim_length) {
 			switch (get_player_color(player)) {
-				case 6:
+				case 7:
 					draw_sprite_ext(curr_dashfx.sprite, curr_dashfx.frames/curr_dashfx.fx_fps, curr_dashfx.x_offset, curr_dashfx.y_offset, curr_dashfx.dir, 1, 0, color, 1)
 				break;
 				default:

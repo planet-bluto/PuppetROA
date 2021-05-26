@@ -14,7 +14,7 @@ caligraphy_number = 0
 
 // Alt shit
 switch (get_player_color(player)) {
-	case 6:
+	case 7:
 		alt_suffix = "_log"
 	break;
 	default:

@@ -1,7 +1,7 @@
 // Custom Skin
 
 switch (color_slot) {
-	case 6:
+	case 7:
 		if ("rb_merge" not in self) {
 			int_rb_merge = 1
 			rb_merge = 1
