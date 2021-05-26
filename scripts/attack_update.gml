@@ -65,7 +65,7 @@ if (attack == AT_FSPECIAL_2 && instance_exists(grabbed_player_obj)) {
 		//on the first window, pull the opponent into the grab.
 		if (window == 1 && window_timer == 20) { 
 			//change as necessary. by default, this grab will pull the opponent to (30, 0) in front of the player.
-			var pull_to_x = 120 * spr_dir;
+			var pull_to_x = 140 * spr_dir;
 			var pull_to_y = 0;
 			
 			//using an easing function, smoothly pull the opponent into the grab over the duration of this window.
