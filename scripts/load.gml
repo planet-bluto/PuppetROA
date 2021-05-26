@@ -35,6 +35,7 @@ sprite_change_offset("dtilt", 0, 0);
 sprite_change_offset("utilt", 0, 0);
 sprite_change_offset("nair", 0, 0);
 sprite_change_offset("fair", 71, 46);
+sprite_change_offset("fair_hurt", 126, 74);
 sprite_change_offset("bair", 0, 0);
 sprite_change_offset("uair", 0, 0);
 sprite_change_offset("dair", 0, 0);

@@ -30,7 +30,7 @@ set_window_value(AT_FAIR, 3, AG_WINDOW_SFX_FRAME, 5);
 set_window_value(AT_FAIR, 3, AG_WINDOW_SFX, asset_get("sfx_swipe_weak2"));
 
 set_window_value(AT_FAIR, 4, AG_WINDOW_TYPE, 1);
-set_window_value(AT_FAIR, 4, AG_WINDOW_LENGTH, 6);
+set_window_value(AT_FAIR, 4, AG_WINDOW_LENGTH, 10);
 set_window_value(AT_FAIR, 4, AG_WINDOW_ANIM_FRAMES, 3);
 set_window_value(AT_FAIR, 4, AG_WINDOW_ANIM_FRAME_START, 8);
 
